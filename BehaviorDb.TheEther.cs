@@ -36,14 +36,14 @@ namespace wServer.logic
                         )
                     ),
                 new MostDamagers(5,
-                    new TierLoot(11, ItemType.Weapon, awesomeloot),
-                    new TierLoot(12, ItemType.Weapon, awesomeloot),
-                    new TierLoot(11, ItemType.Armor, awesomeloot),
-                    new TierLoot(12, ItemType.Armor, awesomeloot),
-                    new TierLoot(5, ItemType.Ring, awesomeloot),
-                    new TierLoot(6, ItemType.Ring, awesomeloot),
-                    new TierLoot(5, ItemType.Ability, awesomeloot),
-                    new TierLoot(6, ItemType.Ability, awesomeloot),
+                    new TierLoot(11, ItemType.Weapon, goodloot),
+                    new TierLoot(12, ItemType.Weapon, greatloot),
+                    new TierLoot(11, ItemType.Armor, normalloot),
+                    new TierLoot(12, ItemType.Armor, goodloot),
+                    new TierLoot(5, ItemType.Ring, goodloot),
+                    new TierLoot(6, ItemType.Ring, greatloot),
+                    new TierLoot(5, ItemType.Ability, goodloot),
+                    new TierLoot(6, ItemType.Ability, greatloot),
                     new ItemLoot("Bone Dagger", awesomeloot)
                     ),
                 new MostDamagers(3,
@@ -67,12 +67,12 @@ namespace wServer.logic
                     new OnlyOne(
                         new ItemLoot("Bone Dagger", awesomeloot)
                         ),
-                        new TierLoot(5, ItemType.Weapon, awesomeloot),
-                        new TierLoot(6, ItemType.Weapon, awesomeloot),
-                        new TierLoot(7, ItemType.Weapon, awesomeloot),
-                        new TierLoot(9, ItemType.Armor, awesomeloot),
-                        new TierLoot(8, ItemType.Armor, awesomeloot),
-                        new TierLoot(7, ItemType.Armor, awesomeloot)
+                        new TierLoot(5, ItemType.Weapon, poorloot),
+                        new TierLoot(6, ItemType.Weapon, poorloot),
+                        new TierLoot(7, ItemType.Weapon, poorloot),
+                        new TierLoot(9, ItemType.Armor, mediumloot),
+                        new TierLoot(8, ItemType.Armor, mediumloot),
+                        new TierLoot(7, ItemType.Armor, poorloot)
                         )
                 )
             ;
