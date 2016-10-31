@@ -17,9 +17,9 @@ namespace wServer.logic
                 new State(
                     new State(
                         new Wander(0.5),
-                        new Shoot(radius: 15, count: 5, angleOffset: 30 / 3, projectileIndex: 0, coolDown: 500),
+                        new Shoot(radius: 15, count: 5, angleOffset: 30 / 3, projectileIndex: 0, coolDown: 700),
                         new Shoot(radius: 35, projectileIndex: 3, count: 32, coolDown: 60000),
-                        new Shoot(radius: 8.4, count: 6, shootAngle: 60, projectileIndex: 1, coolDown:900),
+                        new Shoot(radius: 8.4, count: 6, shootAngle: 60, projectileIndex: 1, coolDown:2000),
                         new HpLessTransition(0.15, "Boo")
                     ),
                     new State("Boo",
@@ -61,7 +61,7 @@ namespace wServer.logic
         .Init("Ether Skeleton",
                 new State(
                     new Follow(1.5, acquireRange: 14, range: 10),
-                    new Shoot(15, 5, 5, angleOffset: 30 / 3, projectileIndex: 0, coolDown: 120)
+                    new Shoot(15, 3, 5, angleOffset: 30 / 3, projectileIndex: 0, coolDown: 120)
                 ),
                 new MostDamagers(5,
                     new OnlyOne(
