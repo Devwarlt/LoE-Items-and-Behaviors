@@ -22,14 +22,21 @@ namespace wServer.logic
                         new Shoot(radius: 8.4, count: 6, shootAngle: 60, projectileIndex: 1, coolDown:2000),
                         new HpLessTransition(0.15, "Boo")
                     ),
-                    new State("Boo",
+                    new State("BOO",
                         new ConditionalEffect(ConditionEffectIndex.Invulnerable),
                         new Follow(1.5, acquireRange: 14, range:10),
                         new Shoot(radius: 15, count: 5, angleOffset: 30 / 3, projectileIndex: 4, coolDown: 500, predictive: 1),
-                        new Taunt(1.0, true, "NOOO!!"),
-                        new TimedTransition(4344, "ripp")
+                        new HpLessTransition(0.50, "YOU HAVE CROSSED ME FOR THE LAST TIME")
                     ),
-                    new State("ripp",
+                    new State("YOU HAVE CROSSED ME FOR THE LAST TIME,
+                              new Wander(0.5)
+                              new Shoot(radius: 15, count: 8, angleoffset: 30 / 3, projectileIndex: 0, coolDown: 450),
+                              new Shoot(radius: 32, projectileIndex: 3, count: 34, coolDown: 50000),
+                              new Shoot(radius: 7.4, count: 10, shootAngle: 60, projectileIndex: 1, coolDown: 700),
+                              new TimedTransition(4344, "RIPP")
+                              
+                
+                        new State("RIPP",
                         new Shoot(35, projectileIndex: 3, count: 30),
                         new Shoot(35, projectileIndex: 4, count: 30),
                         new Suicide()
