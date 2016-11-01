@@ -36,7 +36,7 @@ namespace wServer.logic
                               new TimedTransition(4344, "RIPP")
                               
                 
-                        new State("RIPP",
+                    new State("RIPP",
                         new Shoot(35, projectileIndex: 3, count: 30),
                         new Shoot(35, projectileIndex: 4, count: 30),
                         new Suicide()
