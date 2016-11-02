@@ -5,7 +5,7 @@
         ///////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
         private const double whitebag = 0.01456*eventmultipler;           //1.456%        -       White Bag UT
         private const double blackbag = 0.00444*eventmultipler;           //0.444%        -       Black Bag LT
-        private const double superbag = 0.00364*eventmultipler;             //0.364%        -       Super Bag SRT
+        private const double superbag = 0.00364*eventmultipler;           //0.364%        -       Super Bag SRT
         private const double eggbag = 0.008125*eventmultipler;            //0.8125%      -       Egg Bag
         private const double awesomeloot = 0.01625*eventmultipler;        //1.625%       -       T13~14 weapons / T14~15 armors / T7~8 abilities / T7~8 rings / treasures
         private const double greatloot = 0.03125*eventmultipler;          //3.125%        -       T12 weapons / T13 armors / T6 abilities / T6 rings
