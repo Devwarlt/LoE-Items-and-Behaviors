@@ -29,7 +29,7 @@ namespace wServer.logic
                         new Shoot(radius: 15, count: 5, angleOffset: 30 / 3, projectileIndex: 4, coolDown: 500, predictive: 1),
                         new HpLessTransition(0.4, "Minions")
                     ),
-					new State("Minions"
+					new State("Minions",
 						new State("Spawn phase",
 							new ConditionalEffect(ConditionEffectIndex.Invulnerable),
 							new UnsetConditionalEffect(ConditionEffectIndex.Armored),
@@ -39,9 +39,9 @@ namespace wServer.logic
 						),
 						new State("Attack phase",
 							new UnsetConditionalEffect(ConditionEffectIndex.Invulnerable),
-							new Shoot(radius: 15, count: 1, Predictive: 1, projectileindex: 0, cooldown: 300),
-							new Shoot(radius: 10, count: 2, Predictive: 1, projectileindex: 5, cooldown: 320),
-							new Shoot(radius: 7, count: 4, Predictive: 1, projectileindex 7, cooldown: 450),
+							new Shoot(radius: 15, count: 1, predictive: 1, projectileIndex: 0, coolDown: 300),
+							new Shoot(radius: 10, count: 2, predictive: 1, projectileIndex: 5, coolDown: 320),
+							new Shoot(radius: 7, count: 4, predictive: 1, projectileIndex: 7, coolDown: 450),
 							new Shoot(15, projectileIndex: 6, count: 30, coolDown: 1000),
 							new TimedTransition(8500, "Tentacles of Wrath")
 						),
@@ -283,14 +283,14 @@ namespace wServer.logic
                             new Shoot(10, 1, projectileIndex: 6, coolDown: 10),
                             new Shoot(10, 1, projectileIndex: 7, coolDown: 10),
 							new TimedTransition(5000, "Spawn phase")
-						)
+						),
 						new HpLessTransition(0.1, "rage stage")
 					),
                     new State("rage stage",
 					    new Charge(2, 15, coolDown: 5000),
 					    new Taunt(1.0, true, "YOU HAVE CROSSED ME FOR THE LAST TIME!!!"),
 						new Flash(0xFFFFFF, 2, 2),
-					    new Shoot(radius: 15, count: 8, angleoffset: 30 / 3, projectileIndex: 0, coolDown: 450),
+					    new Shoot(radius: 15, count: 8, angleOffset: 30 / 3, projectileIndex: 0, coolDown: 450),
 					    new Shoot(radius: 32, projectileIndex: 3, count: 34, coolDown: 50000),
 					    new Shoot(radius: 7.4, count: 10, shootAngle: 60, projectileIndex: 1, coolDown: 700),
 					    new TimedTransition(14344, "RIPP")
