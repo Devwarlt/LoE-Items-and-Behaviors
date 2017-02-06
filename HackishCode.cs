@@ -9,7 +9,6 @@ namespace Rextester
 {
     public class Program
     {
-        //Test it on http://rextester.com/
         //hackish code used to know about buffer lenght used on VPS with basic specs average RAM: 3GB to 8GB.
         public static void Main(string[] args)
         {
@@ -25,12 +24,14 @@ namespace Rextester
                 if (i < limit) {
                     newBuffer = buffer / i;
                     var formula = newBuffer * 2 / (1024 * 1024);
-                    data_ = i + ") " + newBuffer + " network buffer consume " + formula + "MB memory when new client connect;";
+                    var formula2 = newBuffer * 2 / (1024);
+                    data_ = i + ") " + newBuffer + " network buffer consume " + formula + "MB (" + formula2 + " KB) memory when new client connect;";
                     Console.WriteLine(data_);
                 } else {
                     newBuffer = buffer / limit;
                     var formula = newBuffer * 2 / (1024 * 1024);
-                    data_ = limit + ") " + newBuffer + " network buffer consume " + formula + "MB memory when new client connect.";
+                    var formula2 = newBuffer * 2 / (1024);
+                    data_ = limit + ") " + newBuffer + " network buffer consume " + formula + "MB (" + formula2 + " KB) memory when new client connect.";
                     Console.WriteLine(data_);
                 }
             }
