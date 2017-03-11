@@ -1,0 +1,243 @@
+  <Object type="0x5137" id="shatters wooden gate 2">
+    <Class>Wall</Class>
+    <RandomTexture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x44f</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x450</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x451</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x452</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x453</Index>
+      </Texture>
+    </Top>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <FullOccupy/>
+    <OccupySquare/>
+    <EnemyOccupySquare/>
+    <BlocksSight/>
+    <!--<Static/>-->
+    <DisplayId>shatters wooden gate 2</DisplayId>
+  </Object>
+  <Object type="0x5138" id="shatters bridge closer 2">
+    <Class>Character</Class>
+    <Enemy/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x44f</Index>
+    </Texture>
+    <NoMiniMap/>
+    <Size>0</Size>
+    <XpMulty>0.0</XpMulty>
+    <StasisImmune/>
+    <DisplayId>shatters bridge closer 2</DisplayId>
+  </Object>
+  <Object type="0x5139" id="shatters bridge closer 3">
+    <Class>Character</Class>
+    <Enemy/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x44f</Index>
+    </Texture>
+    <NoMiniMap/>
+    <Size>0</Size>
+    <XpMulty>0.0</XpMulty>
+    <StasisImmune/>
+    <DisplayId>shatters bridge closer 3</DisplayId>
+  </Object>
+  <Object type="0x513a" id="shatters bridge closer 4">
+    <Class>Character</Class>
+    <Enemy/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x44f</Index>
+    </Texture>
+    <NoMiniMap/>
+    <Size>0</Size>
+    <XpMulty>0.0</XpMulty>
+    <StasisImmune/>
+    <DisplayId>shatters bridge closer 4</DisplayId>
+  </Object>
+  <Object type="0x515e" id="shatters bridge closer 5">
+    <Class>Character</Class>
+    <Enemy/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x44f</Index>
+    </Texture>
+    <NoMiniMap/>
+    <Size>0</Size>
+    <XpMulty>0.0</XpMulty>
+    <StasisImmune/>
+    <DisplayId>shatters bridge closer 5</DisplayId>
+  </Object>
+  <Object type="0x515f" id="shatters bridge closer 6">
+    <Class>Character</Class>
+    <Enemy/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x44f</Index>
+    </Texture>
+    <NoMiniMap/>
+    <Size>0</Size>
+    <XpMulty>0.0</XpMulty>
+    <StasisImmune/>
+    <DisplayId>shatters bridge closer 6</DisplayId>
+  </Object>
+  <Object type="0x5160" id="shatters bridge closer 7">
+    <Class>Character</Class>
+    <Enemy/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x44f</Index>
+    </Texture>
+    <NoMiniMap/>
+    <Size>0</Size>
+    <XpMulty>0.0</XpMulty>
+    <StasisImmune/>
+    <DisplayId>shatters bridge closer 7</DisplayId>
+  </Object>
+  <Object type="0x5161" id="shatters bridge closer 8">
+    <Class>Character</Class>
+    <Enemy/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x44f</Index>
+    </Texture>
+    <NoMiniMap/>
+    <Size>0</Size>
+    <XpMulty>0.0</XpMulty>
+    <StasisImmune/>
+    <DisplayId>shatters bridge closer 8</DisplayId>
+  </Object>
+  <Object type="0x5162" id="shatters bridge closer 9">
+    <Class>Character</Class>
+    <Enemy/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x44f</Index>
+    </Texture>
+    <NoMiniMap/>
+    <Size>0</Size>
+    <XpMulty>0.0</XpMulty>
+    <StasisImmune/>
+    <DisplayId>shatters bridge closer 9</DisplayId>
+  </Object>
+  <Object type="0x513b" id="shatters blobomb maker">
+    <Class>Character</Class>
+    <Enemy/>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>108</Index>
+    </AnimatedTexture>
+    <NoMiniMap/>
+    <Size>0</Size>
+    <XpMulty>0.0</XpMulty>
+    <StasisImmune/>
+    <DisplayId>shatters blobomb maker</DisplayId>
+  </Object>
+  <Object type="0x513c" id="shatters spawn bridge">
+    <Class>Character</Class>
+    <Enemy/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x44f</Index>
+    </Texture>
+    <NoMiniMap/>
+    <Size>0</Size>
+    <XpMulty>0.0</XpMulty>
+    <StasisImmune/>
+    <DisplayId>shatters spawn bridge</DisplayId>
+  </Object>
+  <Object type="0x513d" id="shatters spawn bridge 2">
+    <Class>Character</Class>
+    <Enemy/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x44f</Index>
+    </Texture>
+    <NoMiniMap/>
+    <Size>0</Size>
+    <XpMulty>0.0</XpMulty>
+    <StasisImmune/>
+    <DisplayId>shatters spawn bridge 2</DisplayId>
+  </Object>
+  <Object type="0x513e" id="shatters spawn bridge 3">
+    <Class>Character</Class>
+    <Enemy/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x44f</Index>
+    </Texture>
+    <NoMiniMap/>
+    <Size>0</Size>
+    <XpMulty>0.0</XpMulty>
+    <StasisImmune/>
+    <DisplayId>shatters spawn bridge 3</DisplayId>
+  </Object>
+  <Object type="0x5140" id="shatters spawn bridge 5">
+    <Class>Character</Class>
+    <Enemy/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x44f</Index>
+    </Texture>
+    <NoMiniMap/>
+    <Size>0</Size>
+    <XpMulty>0.0</XpMulty>
+    <StasisImmune/>
+    <DisplayId>shatters spawn bridge 5</DisplayId>
+  </Object>
+  <Object type="0x5141" id="shatters chest spawner 1">
+    <Class>Character</Class>
+    <Enemy/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x466</Index>
+    </Texture>
+    <NoMiniMap/>
+    <Size>0</Size>
+    <XpMulty>0.0</XpMulty>
+    <StasisImmune/>
+    <DisplayId>shatters chest spawner 1</DisplayId>
+  </Object>
+  <Object type="0x5142" id="shatters chest spawner 2">
+    <Class>Character</Class>
+    <Enemy/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x466</Index>
+    </Texture>
+    <NoMiniMap/>
+    <Size>0</Size>
+    <XpMulty>0.0</XpMulty>
+    <StasisImmune/>
+    <DisplayId>shatters chest spawner 2</DisplayId>
+  </Object>
+  <Object type="0x5143" id="shatters chest spawner 3">
+    <Class>Character</Class>
+    <Enemy/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x466</Index>
+    </Texture>
+    <NoMiniMap/>
+    <Size>0</Size>
+    <XpMulty>0.0</XpMulty>
+    <StasisImmune/>
+    <DisplayId>shatters chest spawner 3</DisplayId>
+  </Object>
